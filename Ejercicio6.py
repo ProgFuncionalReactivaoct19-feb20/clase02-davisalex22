@@ -10,7 +10,7 @@ datos = (
         (25 , 1.60) ,
         (35 , 1.68))
  
-anios = lambda x: x[0]
+anios = lambda x : x[0]
 estatura = lambda x: x[1]
 
 funciones = lambda x: (anios(x)/12.0 , estatura(x)/100)
